@@ -20,16 +20,16 @@ MODEL_SET : ModelSet =\
 		{
 			'gender_age':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0/gender_age.hash',
-				'path': resolve_relative_path('../.assets/models/gender_age.hash')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/gender_age.hash',
+				'path': resolve_relative_path('../.assets/models-opt15/gender_age.hash')
 			}
 		},
 		'sources':
 		{
 			'gender_age':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0/gender_age.onnx',
-				'path': resolve_relative_path('../.assets/models/gender_age.onnx')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/gender_age.onnx',
+				'path': resolve_relative_path('../.assets/models-opt15/gender_age.onnx')
 			}
 		}
 	}
@@ -59,7 +59,7 @@ def get_model_options() -> ModelOptions:
 
 
 def pre_check() -> bool:
-	download_directory_path = resolve_relative_path('../.assets/models')
+	download_directory_path = resolve_relative_path('../.assets/models-opt15')
 	model_hashes = get_model_options().get('hashes')
 	model_sources = get_model_options().get('sources')
 

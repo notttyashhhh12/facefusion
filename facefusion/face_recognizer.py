@@ -20,16 +20,16 @@ MODEL_SET : ModelSet =\
 		{
 			'face_recognizer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0/arcface_w600k_r50.hash',
-				'path': resolve_relative_path('../.assets/models/arcface_w600k_r50.hash')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/arcface_w600k_r50.hash',
+				'path': resolve_relative_path('../.assets/models-opt15/arcface_w600k_r50.hash')
 			}
 		},
 		'sources':
 		{
 			'face_recognizer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0/arcface_w600k_r50.onnx',
-				'path': resolve_relative_path('../.assets/models/arcface_w600k_r50.onnx')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/arcface_w600k_r50.onnx',
+				'path': resolve_relative_path('../.assets/models-opt15/arcface_w600k_r50.onnx')
 			}
 		}
 	}
@@ -59,7 +59,7 @@ def get_model_options() -> ModelOptions:
 
 
 def pre_check() -> bool:
-	download_directory_path = resolve_relative_path('../.assets/models')
+	download_directory_path = resolve_relative_path('../.assets/models-opt15')
 	model_hashes = get_model_options().get('hashes')
 	model_sources = get_model_options().get('sources')
 

@@ -21,16 +21,16 @@ MODEL_SET : ModelSet =\
 		{
 			'2dfan4':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0/2dfan4.hash',
-				'path': resolve_relative_path('../.assets/models/2dfan4.hash')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/2dfan4.hash',
+				'path': resolve_relative_path('../.assets/models-opt15/2dfan4.hash')
 			}
 		},
 		'sources':
 		{
 			'2dfan4':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0/2dfan4.onnx',
-				'path': resolve_relative_path('../.assets/models/2dfan4.onnx')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/2dfan4.onnx',
+				'path': resolve_relative_path('../.assets/models-opt15/2dfan4.onnx')
 			}
 		}
 	},
@@ -40,16 +40,16 @@ MODEL_SET : ModelSet =\
 		{
 			'peppa_wutz':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0/peppa_wutz.hash',
-				'path': resolve_relative_path('../.assets/models/peppa_wutz.hash')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/peppa_wutz.hash',
+				'path': resolve_relative_path('../.assets/models-opt15/peppa_wutz.hash')
 			}
 		},
 		'sources':
 		{
 			'peppa_wutz':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0/peppa_wutz.onnx',
-				'path': resolve_relative_path('../.assets/models/peppa_wutz.onnx')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/peppa_wutz.onnx',
+				'path': resolve_relative_path('../.assets/models-opt15/peppa_wutz.onnx')
 			}
 		}
 	},
@@ -59,16 +59,16 @@ MODEL_SET : ModelSet =\
 		{
 			'face_landmarker_68_5':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0/face_landmarker_68_5.hash',
-				'path': resolve_relative_path('../.assets/models/face_landmarker_68_5.hash')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/face_landmarker_68_5.hash',
+				'path': resolve_relative_path('../.assets/models-opt15/face_landmarker_68_5.hash')
 			}
 		},
 		'sources':
 		{
 			'face_landmarker_68_5':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0/face_landmarker_68_5.onnx',
-				'path': resolve_relative_path('../.assets/models/face_landmarker_68_5.onnx')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/face_landmarker_68_5.onnx',
+				'path': resolve_relative_path('../.assets/models-opt15/face_landmarker_68_5.onnx')
 			}
 		}
 	}
@@ -113,7 +113,7 @@ def collect_model_downloads() -> Tuple[DownloadSet, DownloadSet]:
 
 
 def pre_check() -> bool:
-	download_directory_path = resolve_relative_path('../.assets/models')
+	download_directory_path = resolve_relative_path('../.assets/models-opt15')
 	model_hashes, model_sources = collect_model_downloads()
 
 	return conditional_download_hashes(download_directory_path, model_hashes) and conditional_download_sources(download_directory_path, model_sources)
