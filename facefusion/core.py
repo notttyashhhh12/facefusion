@@ -147,7 +147,7 @@ def conditional_append_reference_faces() -> None:
 
 def force_download() -> ErrorCode:
 	available_processors = list_directory('facefusion/processors/modules')
-	download_directory_path = resolve_relative_path('../.assets/models-opt15')
+	download_directory_path = resolve_relative_path('../.assets/models-opt21')
 	model_set =\
 	[
 		content_analyser.MODEL_SET.get('open_nsfw'),

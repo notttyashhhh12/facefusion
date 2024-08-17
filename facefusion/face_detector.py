@@ -22,16 +22,16 @@ MODEL_SET : ModelSet =\
 		{
 			'retinaface':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/retinaface_10g.hash',
-				'path': resolve_relative_path('../.assets/models-opt15/retinaface_10g.hash')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt21/retinaface_10g.hash',
+				'path': resolve_relative_path('../.assets/models-opt21/retinaface_10g.hash')
 			}
 		},
 		'sources':
 		{
 			'retinaface':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/retinaface_10g.onnx',
-				'path': resolve_relative_path('../.assets/models-opt15/retinaface_10g.onnx')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt21/retinaface_10g.onnx',
+				'path': resolve_relative_path('../.assets/models-opt21/retinaface_10g.onnx')
 			}
 		}
 	},
@@ -41,16 +41,16 @@ MODEL_SET : ModelSet =\
 		{
 			'scrfd':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/scrfd_2.5g.hash',
-				'path': resolve_relative_path('../.assets/models-opt15/scrfd_2.5g.hash')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt21/scrfd_2.5g.hash',
+				'path': resolve_relative_path('../.assets/models-opt21/scrfd_2.5g.hash')
 			}
 		},
 		'sources':
 		{
 			'scrfd':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/scrfd_2.5g.onnx',
-				'path': resolve_relative_path('../.assets/models-opt15/scrfd_2.5g.onnx')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt21/scrfd_2.5g.onnx',
+				'path': resolve_relative_path('../.assets/models-opt21/scrfd_2.5g.onnx')
 			}
 		}
 	},
@@ -60,16 +60,16 @@ MODEL_SET : ModelSet =\
 		{
 			'yoloface':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/yoloface_8n.hash',
-				'path': resolve_relative_path('../.assets/models-opt15/yoloface_8n.hash')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt21/yoloface_8n.hash',
+				'path': resolve_relative_path('../.assets/models-opt21/yoloface_8n.hash')
 			}
 		},
 		'sources':
 		{
 			'yoloface':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/yoloface_8n.onnx',
-				'path': resolve_relative_path('../.assets/models-opt15/yoloface_8n.onnx')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt21/yoloface_8n.onnx',
+				'path': resolve_relative_path('../.assets/models-opt21/yoloface_8n.onnx')
 			}
 		}
 	}
@@ -111,7 +111,7 @@ def collect_model_downloads() -> Tuple[DownloadSet, DownloadSet]:
 
 
 def pre_check() -> bool:
-	download_directory_path = resolve_relative_path('../.assets/models-opt15')
+	download_directory_path = resolve_relative_path('../.assets/models-opt21')
 	model_hashes, model_sources = collect_model_downloads()
 
 	return conditional_download_hashes(download_directory_path, model_hashes) and conditional_download_sources(download_directory_path, model_sources)

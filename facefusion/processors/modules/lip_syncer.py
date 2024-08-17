@@ -36,16 +36,16 @@ MODEL_SET : ModelSet =\
 		{
 			'lip_syncer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/wav2lip.hash',
-				'path': resolve_relative_path('../.assets/models-opt15/wav2lip.hash')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt21/wav2lip.hash',
+				'path': resolve_relative_path('../.assets/models-opt21/wav2lip.hash')
 			}
 		},
 		'sources':
 		{
 			'lip_syncer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/wav2lip.onnx',
-				'path': resolve_relative_path('../.assets/models-opt15/wav2lip.onnx')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt21/wav2lip.onnx',
+				'path': resolve_relative_path('../.assets/models-opt21/wav2lip.onnx')
 			}
 		}
 	},
@@ -55,16 +55,16 @@ MODEL_SET : ModelSet =\
 		{
 			'lip_syncer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/wav2lip_gan.hash',
-				'path': resolve_relative_path('../.assets/models-opt15/wav2lip_gan.hash')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt21/wav2lip_gan.hash',
+				'path': resolve_relative_path('../.assets/models-opt21/wav2lip_gan.hash')
 			}
 		},
 		'sources':
 		{
 			'lip_syncer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/wav2lip_gan.onnx',
-				'path': resolve_relative_path('../.assets/models-opt15/wav2lip_gan.onnx')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt21/wav2lip_gan.onnx',
+				'path': resolve_relative_path('../.assets/models-opt21/wav2lip_gan.onnx')
 			}
 		}
 	}
@@ -105,7 +105,7 @@ def apply_args(args : Args) -> None:
 
 
 def pre_check() -> bool:
-	download_directory_path = resolve_relative_path('../.assets/models-opt15')
+	download_directory_path = resolve_relative_path('../.assets/models-opt21')
 	model_hashes = get_model_options().get('hashes')
 	model_sources = get_model_options().get('sources')
 

@@ -37,16 +37,16 @@ MODEL_SET : ModelSet =\
 		{
 			'age_modifier':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/styleganex_age.hash',
-				'path': resolve_relative_path('../.assets/models-opt15/styleganex_age.hash')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt21/styleganex_age.hash',
+				'path': resolve_relative_path('../.assets/models-opt21/styleganex_age.hash')
 			}
 		},
 		'sources':
 		{
 			'age_modifier':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/styleganex_age.onnx',
-				'path': resolve_relative_path('../.assets/models-opt15/styleganex_age.onnx')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt21/styleganex_age.onnx',
+				'path': resolve_relative_path('../.assets/models-opt21/styleganex_age.onnx')
 			}
 		},
 		'template': 'ffhq_512',
@@ -91,7 +91,7 @@ def apply_args(args : Args) -> None:
 
 
 def pre_check() -> bool:
-	download_directory_path = resolve_relative_path('../.assets/models-opt15')
+	download_directory_path = resolve_relative_path('../.assets/models-opt21')
 	model_hashes = get_model_options().get('hashes')
 	model_sources = get_model_options().get('sources')
 

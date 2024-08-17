@@ -20,16 +20,16 @@ MODEL_SET : ModelSet =\
 		{
 			'voice_extractor':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/kim_vocal_2.hash',
-				'path': resolve_relative_path('../.assets/models-opt15/kim_vocal_2.hash')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt21/kim_vocal_2.hash',
+				'path': resolve_relative_path('../.assets/models-opt21/kim_vocal_2.hash')
 			}
 		},
 		'sources':
 		{
 			'voice_extractor':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/kim_vocal_2.onnx',
-				'path': resolve_relative_path('../.assets/models-opt15/kim_vocal_2.onnx')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt21/kim_vocal_2.onnx',
+				'path': resolve_relative_path('../.assets/models-opt21/kim_vocal_2.onnx')
 			}
 		}
 	}
@@ -59,7 +59,7 @@ def get_model_options() -> ModelOptions:
 
 
 def pre_check() -> bool:
-	download_directory_path = resolve_relative_path('../.assets/models-opt15')
+	download_directory_path = resolve_relative_path('../.assets/models-opt21')
 	model_hashes = get_model_options().get('hashes')
 	model_sources = get_model_options().get('sources')
 
