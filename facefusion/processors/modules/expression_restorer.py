@@ -36,36 +36,36 @@ MODEL_SET : ModelSet =\
 		{
 			'feature_extractor':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/live_portrait_feature_extractor.hash',
-				'path': resolve_relative_path('../.assets/models-opt15/live_portrait_feature_extractor.hash')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/live_portrait_feature_extractor.hash',
+				'path': resolve_relative_path('../.assets/models-optraw/live_portrait_feature_extractor.hash')
 			},
 			'motion_extractor':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/live_portrait_motion_extractor.hash',
-				'path': resolve_relative_path('../.assets/models-opt15/live_portrait_motion_extractor.hash')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/live_portrait_motion_extractor.hash',
+				'path': resolve_relative_path('../.assets/models-optraw/live_portrait_motion_extractor.hash')
 			},
 			'generator':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/live_portrait_generator.hash',
-				'path': resolve_relative_path('../.assets/models-opt15/live_portrait_generator.hash')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/live_portrait_generator.hash',
+				'path': resolve_relative_path('../.assets/models-optraw/live_portrait_generator.hash')
 			}
 		},
 		'sources':
 		{
 			'feature_extractor':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/live_portrait_feature_extractor.onnx',
-				'path': resolve_relative_path('../.assets/models-opt15/live_portrait_feature_extractor.onnx')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/live_portrait_feature_extractor.onnx',
+				'path': resolve_relative_path('../.assets/models-optraw/live_portrait_feature_extractor.onnx')
 			},
 			'motion_extractor':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/live_portrait_motion_extractor.onnx',
-				'path': resolve_relative_path('../.assets/models-opt15/live_portrait_motion_extractor.onnx')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/live_portrait_motion_extractor.onnx',
+				'path': resolve_relative_path('../.assets/models-optraw/live_portrait_motion_extractor.onnx')
 			},
 			'generator':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/live_portrait_generator.onnx',
-				'path': resolve_relative_path('../.assets/models-opt15/live_portrait_generator.onnx')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/live_portrait_generator.onnx',
+				'path': resolve_relative_path('../.assets/models-optraw/live_portrait_generator.onnx')
 			}
 		},
 		'template': 'arcface_128_v2',
@@ -110,7 +110,7 @@ def apply_args(args : Args) -> None:
 
 
 def pre_check() -> bool:
-	download_directory_path = resolve_relative_path('../.assets/models-opt15')
+	download_directory_path = resolve_relative_path('../.assets/models-optraw')
 	model_hashes = get_model_options().get('hashes')
 	model_sources = get_model_options().get('sources')
 

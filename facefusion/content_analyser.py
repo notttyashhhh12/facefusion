@@ -23,16 +23,16 @@ MODEL_SET : ModelSet =\
 		{
 			'content_analyser':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/open_nsfw.hash',
-				'path': resolve_relative_path('../.assets/models-opt15/open_nsfw.hash')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/open_nsfw.hash',
+				'path': resolve_relative_path('../.assets/models-optraw/open_nsfw.hash')
 			}
 		},
 		'sources':
 		{
 			'content_analyser':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/open_nsfw.onnx',
-				'path': resolve_relative_path('../.assets/models-opt15/open_nsfw.onnx')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/open_nsfw.onnx',
+				'path': resolve_relative_path('../.assets/models-optraw/open_nsfw.onnx')
 			}
 		}
 	}
@@ -65,7 +65,7 @@ def get_model_options() -> ModelOptions:
 
 
 def pre_check() -> bool:
-	download_directory_path = resolve_relative_path('../.assets/models-opt15')
+	download_directory_path = resolve_relative_path('../.assets/models-optraw')
 	model_hashes = get_model_options().get('hashes')
 	model_sources = get_model_options().get('sources')
 

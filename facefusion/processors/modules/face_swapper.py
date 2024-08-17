@@ -35,26 +35,26 @@ MODEL_SET : ModelSet =\
 		{
 			'face_swapper':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/blendswap_256.hash',
-				'path': resolve_relative_path('../.assets/models-opt15/blendswap_256.hash')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/blendswap_256.hash',
+				'path': resolve_relative_path('../.assets/models-optraw/blendswap_256.hash')
 			},
 			'face_recognizer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/arcface_w600k_r50.hash',
-				'path': resolve_relative_path('../.assets/models-opt15/arcface_w600k_r50.hash')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/arcface_w600k_r50.hash',
+				'path': resolve_relative_path('../.assets/models-optraw/arcface_w600k_r50.hash')
 			}
 		},
 		'sources':
 		{
 			'face_swapper':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/blendswap_256.onnx',
-				'path': resolve_relative_path('../.assets/models-opt15/blendswap_256.onnx')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/blendswap_256.onnx',
+				'path': resolve_relative_path('../.assets/models-optraw/blendswap_256.onnx')
 			},
 			'face_recognizer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/arcface_w600k_r50.onnx',
-				'path': resolve_relative_path('../.assets/models-opt15/arcface_w600k_r50.onnx')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/arcface_w600k_r50.onnx',
+				'path': resolve_relative_path('../.assets/models-optraw/arcface_w600k_r50.onnx')
 			}
 		},
 		'type': 'blendswap',
@@ -69,26 +69,26 @@ MODEL_SET : ModelSet =\
 		{
 			'face_swapper':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/ghost_256_unet_1.hash',
-				'path': resolve_relative_path('../.assets/models-opt15/ghost_256_unet_1.hash')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/ghost_256_unet_1.hash',
+				'path': resolve_relative_path('../.assets/models-optraw/ghost_256_unet_1.hash')
 			},
 			'face_recognizer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/arcface_ghost.hash',
-				'path': resolve_relative_path('../.assets/models-opt15/arcface_ghost.hash')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/arcface_ghost.hash',
+				'path': resolve_relative_path('../.assets/models-optraw/arcface_ghost.hash')
 			}
 		},
 		'sources':
 		{
 			'face_swapper':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/ghost_256_unet_1.onnx',
-				'path': resolve_relative_path('../.assets/models-opt15/ghost_256_unet_1.onnx')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/ghost_256_unet_1.onnx',
+				'path': resolve_relative_path('../.assets/models-optraw/ghost_256_unet_1.onnx')
 			},
 			'face_recognizer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/arcface_ghost.onnx',
-				'path': resolve_relative_path('../.assets/models-opt15/arcface_ghost.onnx')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/arcface_ghost.onnx',
+				'path': resolve_relative_path('../.assets/models-optraw/arcface_ghost.onnx')
 			}
 		},
 		'type': 'ghost',
@@ -103,26 +103,26 @@ MODEL_SET : ModelSet =\
 		{
 			'face_swapper':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/ghost_256_unet_2.hash',
-				'path': resolve_relative_path('../.assets/models-opt15/ghost_256_unet_2.hash')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/ghost_256_unet_2.hash',
+				'path': resolve_relative_path('../.assets/models-optraw/ghost_256_unet_2.hash')
 			},
 			'face_recognizer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/arcface_ghost.hash',
-				'path': resolve_relative_path('../.assets/models-opt15/arcface_ghost.hash')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/arcface_ghost.hash',
+				'path': resolve_relative_path('../.assets/models-optraw/arcface_ghost.hash')
 			}
 		},
 		'sources':
 		{
 			'face_swapper':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/ghost_256_unet_2.onnx',
-				'path': resolve_relative_path('../.assets/models-opt15/ghost_256_unet_2.onnx')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/ghost_256_unet_2.onnx',
+				'path': resolve_relative_path('../.assets/models-optraw/ghost_256_unet_2.onnx')
 			},
 			'face_recognizer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/arcface_ghost.onnx',
-				'path': resolve_relative_path('../.assets/models-opt15/arcface_ghost.onnx')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/arcface_ghost.onnx',
+				'path': resolve_relative_path('../.assets/models-optraw/arcface_ghost.onnx')
 			}
 		},
 		'type': 'ghost',
@@ -137,26 +137,26 @@ MODEL_SET : ModelSet =\
 		{
 			'face_swapper':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/ghost_256_unet_3.hash',
-				'path': resolve_relative_path('../.assets/models-opt15/ghost_256_unet_3.hash')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/ghost_256_unet_3.hash',
+				'path': resolve_relative_path('../.assets/models-optraw/ghost_256_unet_3.hash')
 			},
 			'face_recognizer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/arcface_ghost.hash',
-				'path': resolve_relative_path('../.assets/models-opt15/arcface_ghost.hash')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/arcface_ghost.hash',
+				'path': resolve_relative_path('../.assets/models-optraw/arcface_ghost.hash')
 			}
 		},
 		'sources':
 		{
 			'face_swapper':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/ghost_256_unet_3.onnx',
-				'path': resolve_relative_path('../.assets/models-opt15/ghost_256_unet_3.onnx')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/ghost_256_unet_3.onnx',
+				'path': resolve_relative_path('../.assets/models-optraw/ghost_256_unet_3.onnx')
 			},
 			'face_recognizer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/arcface_ghost.onnx',
-				'path': resolve_relative_path('../.assets/models-opt15/arcface_ghost.onnx')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/arcface_ghost.onnx',
+				'path': resolve_relative_path('../.assets/models-optraw/arcface_ghost.onnx')
 			}
 		},
 		'type': 'ghost',
@@ -171,26 +171,26 @@ MODEL_SET : ModelSet =\
 		{
 			'face_swapper':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/inswapper_128.hash',
-				'path': resolve_relative_path('../.assets/models-opt15/inswapper_128.hash')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/inswapper_128.hash',
+				'path': resolve_relative_path('../.assets/models-optraw/inswapper_128.hash')
 			},
 			'face_recognizer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15//arcface_w600k_r50.hash',
-				'path': resolve_relative_path('../.assets/models-opt15/arcface_w600k_r50.hash')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw//arcface_w600k_r50.hash',
+				'path': resolve_relative_path('../.assets/models-optraw/arcface_w600k_r50.hash')
 			}
 		},
 		'sources':
 		{
 			'face_swapper':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/inswapper_128.onnx',
-				'path': resolve_relative_path('../.assets/models-opt15/inswapper_128.onnx')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/inswapper_128.onnx',
+				'path': resolve_relative_path('../.assets/models-optraw/inswapper_128.onnx')
 			},
 			'face_recognizer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/arcface_w600k_r50.onnx',
-				'path': resolve_relative_path('../.assets/models-opt15/arcface_w600k_r50.onnx')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/arcface_w600k_r50.onnx',
+				'path': resolve_relative_path('../.assets/models-optraw/arcface_w600k_r50.onnx')
 			}
 		},
 		'type': 'inswapper',
@@ -205,26 +205,26 @@ MODEL_SET : ModelSet =\
 		{
 			'face_swapper':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/inswapper_128_fp16.hash',
-				'path': resolve_relative_path('../.assets/models-opt15/inswapper_128_fp16.hash')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/inswapper_128_fp16.hash',
+				'path': resolve_relative_path('../.assets/models-optraw/inswapper_128_fp16.hash')
 			},
 			'face_recognizer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/arcface_w600k_r50.hash',
-				'path': resolve_relative_path('../.assets/models-opt15/arcface_w600k_r50.hash')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/arcface_w600k_r50.hash',
+				'path': resolve_relative_path('../.assets/models-optraw/arcface_w600k_r50.hash')
 			}
 		},
 		'sources':
 		{
 			'face_swapper':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/inswapper_128_fp16.onnx',
-				'path': resolve_relative_path('../.assets/models-opt15/inswapper_128_fp16.onnx')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/inswapper_128_fp16.onnx',
+				'path': resolve_relative_path('../.assets/models-optraw/inswapper_128_fp16.onnx')
 			},
 			'face_recognizer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/arcface_w600k_r50.onnx',
-				'path': resolve_relative_path('../.assets/models-opt15/arcface_w600k_r50.onnx')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/arcface_w600k_r50.onnx',
+				'path': resolve_relative_path('../.assets/models-optraw/arcface_w600k_r50.onnx')
 			}
 		},
 		'type': 'inswapper',
@@ -239,26 +239,26 @@ MODEL_SET : ModelSet =\
 		{
 			'face_swapper':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/simswap_256.hash',
-				'path': resolve_relative_path('../.assets/models-opt15/simswap_256.hash')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/simswap_256.hash',
+				'path': resolve_relative_path('../.assets/models-optraw/simswap_256.hash')
 			},
 			'face_recognizer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/arcface_simswap.hash',
-				'path': resolve_relative_path('../.assets/models-opt15/arcface_simswap.hash')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/arcface_simswap.hash',
+				'path': resolve_relative_path('../.assets/models-optraw/arcface_simswap.hash')
 			}
 		},
 		'sources':
 		{
 			'face_swapper':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/simswap_256.onnx',
-				'path': resolve_relative_path('../.assets/models-opt15/simswap_256.onnx')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/simswap_256.onnx',
+				'path': resolve_relative_path('../.assets/models-optraw/simswap_256.onnx')
 			},
 			'face_recognizer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/arcface_simswap.onnx',
-				'path': resolve_relative_path('../.assets/models-opt15/arcface_simswap.onnx')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/arcface_simswap.onnx',
+				'path': resolve_relative_path('../.assets/models-optraw/arcface_simswap.onnx')
 			}
 		},
 		'type': 'simswap',
@@ -273,26 +273,26 @@ MODEL_SET : ModelSet =\
 		{
 			'face_swapper':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/simswap_512_unofficial.hash',
-				'path': resolve_relative_path('../.assets/models-opt15/simswap_512_unofficial.hash')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/simswap_512_unofficial.hash',
+				'path': resolve_relative_path('../.assets/models-optraw/simswap_512_unofficial.hash')
 			},
 			'face_recognizer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/arcface_simswap.hash',
-				'path': resolve_relative_path('../.assets/models-opt15/arcface_simswap.hash')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/arcface_simswap.hash',
+				'path': resolve_relative_path('../.assets/models-optraw/arcface_simswap.hash')
 			}
 		},
 		'sources':
 		{
 			'face_swapper':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/simswap_512_unofficial.onnx',
-				'path': resolve_relative_path('../.assets/models-opt15/simswap_512_unofficial.onnx')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/simswap_512_unofficial.onnx',
+				'path': resolve_relative_path('../.assets/models-optraw/simswap_512_unofficial.onnx')
 			},
 			'face_recognizer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/arcface_simswap.onnx',
-				'path': resolve_relative_path('../.assets/models-opt15/arcface_simswap.onnx')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/arcface_simswap.onnx',
+				'path': resolve_relative_path('../.assets/models-optraw/arcface_simswap.onnx')
 			}
 		},
 		'type': 'simswap',
@@ -307,26 +307,26 @@ MODEL_SET : ModelSet =\
 		{
 			'face_swapper':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/uniface_256.hash',
-				'path': resolve_relative_path('../.assets/models-opt15/uniface_256.hash')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/uniface_256.hash',
+				'path': resolve_relative_path('../.assets/models-optraw/uniface_256.hash')
 			},
 			'face_recognizer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/arcface_w600k_r50.hash',
-				'path': resolve_relative_path('../.assets/models-opt15/arcface_w600k_r50.hash')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/arcface_w600k_r50.hash',
+				'path': resolve_relative_path('../.assets/models-optraw/arcface_w600k_r50.hash')
 			}
 		},
 		'sources':
 		{
 			'face_swapper':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/uniface_256.onnx',
-				'path': resolve_relative_path('../.assets/models-opt15/uniface_256.onnx')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/uniface_256.onnx',
+				'path': resolve_relative_path('../.assets/models-optraw/uniface_256.onnx')
 			},
 			'face_recognizer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-opt15/arcface_w600k_r50.onnx',
-				'path': resolve_relative_path('../.assets/models-opt15/arcface_w600k_r50.onnx')
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/arcface_w600k_r50.onnx',
+				'path': resolve_relative_path('../.assets/models-optraw/arcface_w600k_r50.onnx')
 			}
 		},
 		'type': 'uniface',
@@ -376,7 +376,7 @@ def apply_args(args : Args) -> None:
 
 
 def pre_check() -> bool:
-	download_directory_path = resolve_relative_path('../.assets/models-opt15')
+	download_directory_path = resolve_relative_path('../.assets/models-optraw')
 	model_hashes = get_model_options().get('hashes')
 	model_sources = get_model_options().get('sources')
 
