@@ -35,7 +35,7 @@ MODEL_SET : ModelSet =\
 		{
 			'face_enhancer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/codeformer.hash',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/codeformer.hash',
 				'path': resolve_relative_path('../.assets/models-optraw/codeformer.hash')
 			}
 		},
@@ -43,7 +43,7 @@ MODEL_SET : ModelSet =\
 		{
 			'face_enhancer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/codeformer.onnx',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/codeformer.onnx',
 				'path': resolve_relative_path('../.assets/models-optraw/codeformer.onnx')
 			}
 		},
@@ -56,7 +56,7 @@ MODEL_SET : ModelSet =\
 		{
 			'face_enhancer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/gfpgan_1.2.hash',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/gfpgan_1.2.hash',
 				'path': resolve_relative_path('../.assets/models-optraw/gfpgan_1.2.hash')
 			}
 		},
@@ -64,7 +64,7 @@ MODEL_SET : ModelSet =\
 		{
 			'face_enhancer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/gfpgan_1.2.onnx',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/gfpgan_1.2.onnx',
 				'path': resolve_relative_path('../.assets/models-optraw/gfpgan_1.2.onnx')
 			}
 		},
@@ -77,7 +77,7 @@ MODEL_SET : ModelSet =\
 		{
 			'face_enhancer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/gfpgan_1.3.hash',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/gfpgan_1.3.hash',
 				'path': resolve_relative_path('../.assets/models-optraw/gfpgan_1.4.hash')
 			}
 		},
@@ -85,7 +85,7 @@ MODEL_SET : ModelSet =\
 		{
 			'face_enhancer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/gfpgan_1.3.onnx',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/gfpgan_1.3.onnx',
 				'path': resolve_relative_path('../.assets/models-optraw/gfpgan_1.4.onnx')
 			}
 		},
@@ -98,7 +98,7 @@ MODEL_SET : ModelSet =\
 		{
 			'face_enhancer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/gfpgan_1.4.hash',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/gfpgan_1.4.hash',
 				'path': resolve_relative_path('../.assets/models-optraw/gfpgan_1.4.hash')
 			}
 		},
@@ -106,7 +106,7 @@ MODEL_SET : ModelSet =\
 		{
 			'face_enhancer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/gfpgan_1.4.onnx',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/gfpgan_1.4.onnx',
 				'path': resolve_relative_path('../.assets/models-optraw/gfpgan_1.4.onnx')
 			}
 		},
@@ -119,7 +119,7 @@ MODEL_SET : ModelSet =\
 		{
 			'face_enhancer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/gpen_bfr_256.hash',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/gpen_bfr_256.hash',
 				'path': resolve_relative_path('../.assets/models-optraw/gpen_bfr_256.hash')
 			}
 		},
@@ -127,7 +127,7 @@ MODEL_SET : ModelSet =\
 		{
 			'face_enhancer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/gpen_bfr_256.onnx',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/gpen_bfr_256.onnx',
 				'path': resolve_relative_path('../.assets/models-optraw/gpen_bfr_256.onnx')
 			}
 		},
@@ -140,7 +140,7 @@ MODEL_SET : ModelSet =\
 		{
 			'face_enhancer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/gpen_bfr_512.hash',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/gpen_bfr_512.hash',
 				'path': resolve_relative_path('../.assets/models-optraw/gpen_bfr_512.hash')
 			}
 		},
@@ -148,7 +148,7 @@ MODEL_SET : ModelSet =\
 		{
 			'face_enhancer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/gpen_bfr_512.onnx',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/gpen_bfr_512.onnx',
 				'path': resolve_relative_path('../.assets/models-optraw/gpen_bfr_512.onnx')
 			}
 		},
@@ -161,7 +161,7 @@ MODEL_SET : ModelSet =\
 		{
 			'face_enhancer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/gpen_bfr_1024.hash',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/gpen_bfr_1024.hash',
 				'path': resolve_relative_path('../.assets/models-optraw/gpen_bfr_1024.hash')
 			}
 		},
@@ -169,7 +169,7 @@ MODEL_SET : ModelSet =\
 		{
 			'face_enhancer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/gpen_bfr_1024.onnx',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/gpen_bfr_1024.onnx',
 				'path': resolve_relative_path('../.assets/models-optraw/gpen_bfr_1024.onnx')
 			}
 		},
@@ -182,7 +182,7 @@ MODEL_SET : ModelSet =\
 		{
 			'face_enhancer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/gpen_bfr_2048.hash',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/gpen_bfr_2048.hash',
 				'path': resolve_relative_path('../.assets/models-optraw/gpen_bfr_2048.hash')
 			}
 		},
@@ -190,7 +190,7 @@ MODEL_SET : ModelSet =\
 		{
 			'face_enhancer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/gpen_bfr_2048.onnx',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/gpen_bfr_2048.onnx',
 				'path': resolve_relative_path('../.assets/models-optraw/gpen_bfr_2048.onnx')
 			}
 		},
@@ -203,7 +203,7 @@ MODEL_SET : ModelSet =\
 		{
 			'face_enhancer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/restoreformer_plus_plus.hash',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/restoreformer_plus_plus.hash',
 				'path': resolve_relative_path('../.assets/models-optraw/restoreformer_plus_plus.hash')
 			}
 		},
@@ -211,7 +211,7 @@ MODEL_SET : ModelSet =\
 		{
 			'face_enhancer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/restoreformer_plus_plus.onnx',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/restoreformer_plus_plus.onnx',
 				'path': resolve_relative_path('../.assets/models-optraw/restoreformer_plus_plus.onnx')
 			}
 		},

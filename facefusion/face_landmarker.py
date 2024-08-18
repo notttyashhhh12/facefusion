@@ -21,7 +21,7 @@ MODEL_SET : ModelSet =\
 		{
 			'2dfan4':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/2dfan4.hash',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/2dfan4.hash',
 				'path': resolve_relative_path('../.assets/models-optraw/2dfan4.hash')
 			}
 		},
@@ -29,7 +29,7 @@ MODEL_SET : ModelSet =\
 		{
 			'2dfan4':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/2dfan4.onnx',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/2dfan4.onnx',
 				'path': resolve_relative_path('../.assets/models-optraw/2dfan4.onnx')
 			}
 		}
@@ -40,7 +40,7 @@ MODEL_SET : ModelSet =\
 		{
 			'peppa_wutz':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/peppa_wutz.hash',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/peppa_wutz.hash',
 				'path': resolve_relative_path('../.assets/models-optraw/peppa_wutz.hash')
 			}
 		},
@@ -48,7 +48,7 @@ MODEL_SET : ModelSet =\
 		{
 			'peppa_wutz':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/peppa_wutz.onnx',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/peppa_wutz.onnx',
 				'path': resolve_relative_path('../.assets/models-optraw/peppa_wutz.onnx')
 			}
 		}
@@ -59,7 +59,7 @@ MODEL_SET : ModelSet =\
 		{
 			'face_landmarker_68_5':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/face_landmarker_68_5.hash',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/face_landmarker_68_5.hash',
 				'path': resolve_relative_path('../.assets/models-optraw/face_landmarker_68_5.hash')
 			}
 		},
@@ -67,7 +67,7 @@ MODEL_SET : ModelSet =\
 		{
 			'face_landmarker_68_5':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/face_landmarker_68_5.onnx',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/face_landmarker_68_5.onnx',
 				'path': resolve_relative_path('../.assets/models-optraw/face_landmarker_68_5.onnx')
 			}
 		}

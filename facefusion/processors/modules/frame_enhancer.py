@@ -30,7 +30,7 @@ MODEL_SET : ModelSet =\
 		{
 			'frame_enhancer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/clear_reality_x4.hash',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/clear_reality_x4.hash',
 				'path': resolve_relative_path('../.assets/models-optraw/clear_reality_x4.hash')
 			}
 		},
@@ -38,7 +38,7 @@ MODEL_SET : ModelSet =\
 		{
 			'frame_enhancer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/clear_reality_x4.onnx',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/clear_reality_x4.onnx',
 				'path': resolve_relative_path('../.assets/models-optraw/clear_reality_x4.onnx')
 			}
 		},
@@ -51,7 +51,7 @@ MODEL_SET : ModelSet =\
 		{
 			'frame_enhancer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/lsdir_x4.hash',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/lsdir_x4.hash',
 				'path': resolve_relative_path('../.assets/models-optraw/lsdir_x4.hash')
 			}
 		},
@@ -59,7 +59,7 @@ MODEL_SET : ModelSet =\
 		{
 			'frame_enhancer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/lsdir_x4.onnx',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/lsdir_x4.onnx',
 				'path': resolve_relative_path('../.assets/models-optraw/lsdir_x4.onnx')
 			}
 		},
@@ -72,7 +72,7 @@ MODEL_SET : ModelSet =\
 		{
 			'frame_enhancer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/nomos8k_sc_x4.hash',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/nomos8k_sc_x4.hash',
 				'path': resolve_relative_path('../.assets/models-optraw/nomos8k_sc_x4.hash')
 			}
 		},
@@ -80,7 +80,7 @@ MODEL_SET : ModelSet =\
 		{
 			'frame_enhancer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/nomos8k_sc_x4.onnx',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/nomos8k_sc_x4.onnx',
 				'path': resolve_relative_path('../.assets/models-optraw/nomos8k_sc_x4.onnx')
 			}
 		},
@@ -93,7 +93,7 @@ MODEL_SET : ModelSet =\
 		{
 			'frame_enhancer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/real_esrgan_x2.hash',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/real_esrgan_x2.hash',
 				'path': resolve_relative_path('../.assets/models-optraw/real_esrgan_x2.hash')
 			}
 		},
@@ -101,7 +101,7 @@ MODEL_SET : ModelSet =\
 		{
 			'frame_enhancer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/real_esrgan_x2.onnx',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/real_esrgan_x2.onnx',
 				'path': resolve_relative_path('../.assets/models-optraw/real_esrgan_x2.onnx')
 			}
 		},
@@ -114,7 +114,7 @@ MODEL_SET : ModelSet =\
 		{
 			'frame_enhancer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/real_esrgan_x2_fp16.hash',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/real_esrgan_x2_fp16.hash',
 				'path': resolve_relative_path('../.assets/models-optraw/real_esrgan_x2_fp16.hash')
 			}
 		},
@@ -122,7 +122,7 @@ MODEL_SET : ModelSet =\
 		{
 			'frame_enhancer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/real_esrgan_x2_fp16.onnx',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/real_esrgan_x2_fp16.onnx',
 				'path': resolve_relative_path('../.assets/models-optraw/real_esrgan_x2_fp16.onnx')
 			}
 		},
@@ -135,7 +135,7 @@ MODEL_SET : ModelSet =\
 		{
 			'frame_enhancer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/real_esrgan_x4.hash',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/real_esrgan_x4.hash',
 				'path': resolve_relative_path('../.assets/models-optraw/real_esrgan_x4.hash')
 			}
 		},
@@ -143,7 +143,7 @@ MODEL_SET : ModelSet =\
 		{
 			'frame_enhancer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/real_esrgan_x4.onnx',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/real_esrgan_x4.onnx',
 				'path': resolve_relative_path('../.assets/models-optraw/real_esrgan_x4.onnx')
 			}
 		},
@@ -156,7 +156,7 @@ MODEL_SET : ModelSet =\
 		{
 			'frame_enhancer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/real_esrgan_x4_fp16.hash',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/real_esrgan_x4_fp16.hash',
 				'path': resolve_relative_path('../.assets/models-optraw/real_esrgan_x4_fp16.hash')
 			}
 		},
@@ -164,7 +164,7 @@ MODEL_SET : ModelSet =\
 		{
 			'frame_enhancer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/real_esrgan_x4_fp16.onnx',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/real_esrgan_x4_fp16.onnx',
 				'path': resolve_relative_path('../.assets/models-optraw/real_esrgan_x4_fp16.onnx')
 			}
 		},
@@ -177,7 +177,7 @@ MODEL_SET : ModelSet =\
 		{
 			'frame_enhancer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/real_esrgan_x8.hash',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/real_esrgan_x8.hash',
 				'path': resolve_relative_path('../.assets/models-optraw/real_esrgan_x8.hash')
 			}
 		},
@@ -185,7 +185,7 @@ MODEL_SET : ModelSet =\
 		{
 			'frame_enhancer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/real_esrgan_x8.onnx',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/real_esrgan_x8.onnx',
 				'path': resolve_relative_path('../.assets/models-optraw/real_esrgan_x8.onnx')
 			}
 		},
@@ -198,7 +198,7 @@ MODEL_SET : ModelSet =\
 		{
 			'frame_enhancer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/real_esrgan_x8_fp16.hash',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/real_esrgan_x8_fp16.hash',
 				'path': resolve_relative_path('../.assets/models-optraw/real_esrgan_x8_fp16.hash')
 			}
 		},
@@ -206,7 +206,7 @@ MODEL_SET : ModelSet =\
 		{
 			'frame_enhancer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/real_esrgan_x8_fp16.onnx',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/real_esrgan_x8_fp16.onnx',
 				'path': resolve_relative_path('../.assets/models-optraw/real_esrgan_x8_fp16.onnx')
 			}
 		},
@@ -219,7 +219,7 @@ MODEL_SET : ModelSet =\
 		{
 			'frame_enhancer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/real_hatgan_x4.hash',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/real_hatgan_x4.hash',
 				'path': resolve_relative_path('../.assets/models-optraw/real_hatgan_x4.hash')
 			}
 		},
@@ -227,7 +227,7 @@ MODEL_SET : ModelSet =\
 		{
 			'frame_enhancer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/real_hatgan_x4.onnx',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/real_hatgan_x4.onnx',
 				'path': resolve_relative_path('../.assets/models-optraw/real_hatgan_x4.onnx')
 			}
 		},
@@ -240,7 +240,7 @@ MODEL_SET : ModelSet =\
 		{
 			'frame_enhancer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/span_kendata_x4.hash',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/span_kendata_x4.hash',
 				'path': resolve_relative_path('../.assets/models-optraw/span_kendata_x4.hash')
 			}
 		},
@@ -248,7 +248,7 @@ MODEL_SET : ModelSet =\
 		{
 			'frame_enhancer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/span_kendata_x4.onnx',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/span_kendata_x4.onnx',
 				'path': resolve_relative_path('../.assets/models-optraw/span_kendata_x4.onnx')
 			}
 		},
@@ -261,7 +261,7 @@ MODEL_SET : ModelSet =\
 		{
 			'frame_enhancer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/ultra_sharp_x4.hash',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/ultra_sharp_x4.hash',
 				'path': resolve_relative_path('../.assets/models-optraw/ultra_sharp_x4.hash')
 			}
 		},
@@ -269,7 +269,7 @@ MODEL_SET : ModelSet =\
 		{
 			'frame_enhancer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/ultra_sharp_x4.onnx',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/ultra_sharp_x4.onnx',
 				'path': resolve_relative_path('../.assets/models-optraw/ultra_sharp_x4.onnx')
 			}
 		},

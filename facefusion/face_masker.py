@@ -22,12 +22,12 @@ MODEL_SET : ModelSet =\
 		{
 			'face_occluder':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/dfl_xseg.hash',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/dfl_xseg.hash',
 				'path': resolve_relative_path('../.assets/models-optraw/dfl_xseg.hash')
 			},
 			'face_parser':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/resnet_34.hash',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/resnet_34.hash',
 				'path': resolve_relative_path('../.assets/models-optraw/resnet_34.hash')
 			}
 		},
@@ -35,12 +35,12 @@ MODEL_SET : ModelSet =\
 		{
 			'face_occluder':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/dfl_xseg.onnx',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/dfl_xseg.onnx',
 				'path': resolve_relative_path('../.assets/models-optraw/dfl_xseg.onnx')
 			},
 			'face_parser':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/resnet_34.onnx',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/resnet_34.onnx',
 				'path': resolve_relative_path('../.assets/models-optraw/resnet_34.onnx')
 			}
 		}

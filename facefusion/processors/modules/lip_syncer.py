@@ -36,7 +36,7 @@ MODEL_SET : ModelSet =\
 		{
 			'lip_syncer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/wav2lip.hash',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/wav2lip.hash',
 				'path': resolve_relative_path('../.assets/models-optraw/wav2lip.hash')
 			}
 		},
@@ -44,7 +44,7 @@ MODEL_SET : ModelSet =\
 		{
 			'lip_syncer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/wav2lip.onnx',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/wav2lip.onnx',
 				'path': resolve_relative_path('../.assets/models-optraw/wav2lip.onnx')
 			}
 		}
@@ -55,7 +55,7 @@ MODEL_SET : ModelSet =\
 		{
 			'lip_syncer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/wav2lip_gan.hash',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/wav2lip_gan.hash',
 				'path': resolve_relative_path('../.assets/models-optraw/wav2lip_gan.hash')
 			}
 		},
@@ -63,7 +63,7 @@ MODEL_SET : ModelSet =\
 		{
 			'lip_syncer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/wav2lip_gan.onnx',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/wav2lip_gan.onnx',
 				'path': resolve_relative_path('../.assets/models-optraw/wav2lip_gan.onnx')
 			}
 		}

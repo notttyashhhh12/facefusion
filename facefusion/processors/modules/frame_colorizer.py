@@ -30,7 +30,7 @@ MODEL_SET : ModelSet =\
 		{
 			'frame_colorizer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/ddcolor.hash',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/ddcolor.hash',
 				'path': resolve_relative_path('../.assets/models-optraw/ddcolor.hash')
 			}
 		},
@@ -38,7 +38,7 @@ MODEL_SET : ModelSet =\
 		{
 			'frame_colorizer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/ddcolor.onnx',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/ddcolor.onnx',
 				'path': resolve_relative_path('../.assets/models-optraw/ddcolor.onnx')
 			}
 		},
@@ -50,7 +50,7 @@ MODEL_SET : ModelSet =\
 		{
 			'frame_colorizer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/ddcolor_artistic.hash',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/ddcolor_artistic.hash',
 				'path': resolve_relative_path('../.assets/models-optraw/ddcolor_artistic.hash')
 			}
 		},
@@ -58,7 +58,7 @@ MODEL_SET : ModelSet =\
 		{
 			'frame_colorizer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/ddcolor_artistic.onnx',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/ddcolor_artistic.onnx',
 				'path': resolve_relative_path('../.assets/models-optraw/ddcolor_artistic.onnx')
 			}
 		},
@@ -70,7 +70,7 @@ MODEL_SET : ModelSet =\
 		{
 			'frame_colorizer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/deoldify.hash',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/deoldify.hash',
 				'path': resolve_relative_path('../.assets/models-optraw/deoldify.hash')
 			}
 		},
@@ -78,7 +78,7 @@ MODEL_SET : ModelSet =\
 		{
 			'frame_colorizer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/deoldify.onnx',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/deoldify.onnx',
 				'path': resolve_relative_path('../.assets/models-optraw/deoldify.onnx')
 			}
 		},
@@ -90,7 +90,7 @@ MODEL_SET : ModelSet =\
 		{
 			'frame_colorizer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/deoldify_artistic.hash',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/deoldify_artistic.hash',
 				'path': resolve_relative_path('../.assets/models-optraw/deoldify_artistic.hash')
 			}
 		},
@@ -98,7 +98,7 @@ MODEL_SET : ModelSet =\
 		{
 			'frame_colorizer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/deoldify_artistic.onnx',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/deoldify_artistic.onnx',
 				'path': resolve_relative_path('../.assets/models-optraw/deoldify_artistic.onnx')
 			}
 		},
@@ -110,7 +110,7 @@ MODEL_SET : ModelSet =\
 		{
 			'frame_colorizer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/deoldify_stable.hash',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/deoldify_stable.hash',
 				'path': resolve_relative_path('../.assets/models-optraw/deoldify_stable.hash')
 			}
 		},
@@ -118,7 +118,7 @@ MODEL_SET : ModelSet =\
 		{
 			'frame_colorizer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/deoldify_stable.onnx',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/deoldify_stable.onnx',
 				'path': resolve_relative_path('../.assets/models-optraw/deoldify_stable.onnx')
 			}
 		},

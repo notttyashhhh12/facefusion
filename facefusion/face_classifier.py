@@ -20,7 +20,7 @@ MODEL_SET : ModelSet =\
 		{
 			'gender_age':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/gender_age.hash',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/gender_age.hash',
 				'path': resolve_relative_path('../.assets/models-optraw/gender_age.hash')
 			}
 		},
@@ -28,7 +28,7 @@ MODEL_SET : ModelSet =\
 		{
 			'gender_age':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/gender_age.onnx',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/gender_age.onnx',
 				'path': resolve_relative_path('../.assets/models-optraw/gender_age.onnx')
 			}
 		}

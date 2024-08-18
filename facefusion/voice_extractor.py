@@ -20,7 +20,7 @@ MODEL_SET : ModelSet =\
 		{
 			'voice_extractor':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/kim_vocal_2.hash',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/kim_vocal_2.hash',
 				'path': resolve_relative_path('../.assets/models-optraw/kim_vocal_2.hash')
 			}
 		},
@@ -28,7 +28,7 @@ MODEL_SET : ModelSet =\
 		{
 			'voice_extractor':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/kim_vocal_2.onnx',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/kim_vocal_2.onnx',
 				'path': resolve_relative_path('../.assets/models-optraw/kim_vocal_2.onnx')
 			}
 		}

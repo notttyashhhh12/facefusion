@@ -20,7 +20,7 @@ MODEL_SET : ModelSet =\
 		{
 			'face_recognizer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/arcface_w600k_r50.hash',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/arcface_w600k_r50.hash',
 				'path': resolve_relative_path('../.assets/models-optraw/arcface_w600k_r50.hash')
 			}
 		},
@@ -28,7 +28,7 @@ MODEL_SET : ModelSet =\
 		{
 			'face_recognizer':
 			{
-				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-optraw/arcface_w600k_r50.onnx',
+				'url': 'https://github.com/facefusion/facefusion-assets/releases/download/models-3.0.0-raw/arcface_w600k_r50.onnx',
 				'path': resolve_relative_path('../.assets/models-optraw/arcface_w600k_r50.onnx')
 			}
 		}
